@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+	font-family: 'Prompt', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	box-sizing: border-box;
+}
+.nav{
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+}
+.nav ul li{
+	display: inline;
+	padding: 0 30px;
+	list-style-type: none;
+	margin-left: 50px;
+}
+.nav ul li a:hover{
+	color: #F79D65;
+}
+.nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 300;
+	color:#E7CDCE;
+}
+.nav img{
+	width: 20%;
+	float: right;
+	margin-right: 30px;
+}
+.top{
+	width: 100%;
+	min-height: 100vh;
+	background-image: url("pics/HD wallpaper_ post malone, male celebrities, music, hd, 4k, 5k, boys.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+	background-position:center;
+}
+.text{
+	text-align: right;
+	margin-top: 10%;
+}
+.text h3{
+	font-size: 50px;
+	font-weight: 400;
+	margin-right: 100px;
+	margin-bottom: 15px;
+	color: #F6F7EB;
+	text-shadow: 0 0 30px #FAFF7F;
+}
+.text h1{
+	font-size: 70px;
+	font-weight: 600;
+	color: #FFB4A2;
+	margin-bottom: 10px;
+	margin-right: 100px;
+	text-shadow: 0 5px 30px #FAFF7F;
+}
+.text p{
+	font-size: 18px;
+	color: #F6F7EB;
+	margin-bottom: 30px;
+	margin-right: 100px;
+	text-shadow: 0 0 30px #FAFF7F;
+}
+.text a{
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px 30px;
+	color: #DBFCFF;
+	border: none;
+	border-radius: 8px;
+	background: #EF8354;
+	transition: 0.5s;
+	margin-right: 100px;
+	text-decoration: none;
+}
+.text a:hover{
+	background:linear-gradient(to right, #F64740,#A3333D);
+	color: #C4D6B0;
+	cursor: pointer;
+	box-shadow: 0 0 15px 5px #C4D6B0;
+}
+
+.mid{
+	width: 80%;
+	min-height: 80vh;
+	padding-top: 80px;
+	margin: auto;
+}
+.about{
+	width: 80%;
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	text-align: left;
+}
+.about img{
+	width: 100%;
+	border-radius: 10px;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+.about img:hover{
+	box-shadow: -10px -10px 20px 5px #F79D65;
+}
+.about1{
+	flex-basis: 40%;
+}
+#anh1{
+	background: #F4845F;
+	position: relative;
+	height: 480px;
+	border-radius: 10px;
+}
+.about1 h3 {
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 5%;
+	margin-top: 10%;
+}
+.about1 p{
+	font-size: 20px;
+	line-height: 30px;
+}
+.project{
+	width: 90%;
+	background: #E1EFE6;
+	text-align: center;
+	margin: auto;
+	border-radius: 18px;
+	transition: 0.5s;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+.project:hover{
+	box-shadow: 0 0 20px 30px #E4C1F9;
+}
+.project h2{
+	font-size: 40px;
+	font-weight: 600;
+	padding-top: 30px;
+	margin-bottom: 10px;
+	text-shadow: 0 0 10px #FA9500;
+}
+.project p{
+	font-size: 20px;
+}
+.playlist{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.hinhne{
+	flex-basis: 31%;
+}
+.hinhne img{
+	border-radius: 10px;
+	width: 70%;
+	transition: 0.25s;
+}
+.hinhne img:hover{
+	box-shadow: 0 0 10px 10px #F694C1;
+}
+.hinhne h3{
+	font-size: 25px;
+	padding: 10px 0;
+}
+.hinhne p{
+	font-size: 15px;
+	padding-left: 70px;
+	text-align: left;
+	padding-bottom: 50px;
+}
+.porfo{
+	width: 100%;
+	height: 30vh;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	background: #A0CFD3;
+	color: #B5FFE1;
+	margin-bottom: 5%;
+}
+.info{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.info h4{
+	padding-top: 5px;
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 5px;
+	text-shadow: 0 0 10px #CC2936;
+}
+.info p{
+	font-size: 15px;
+	text-shadow: 0 0 5px #CC2936;
+}
+.info i{
+	text-shadow: 0 0 10px #CC2936;
+}
+.contact{
+	width: 100%;
+	height: 70vh;
+	text-align: center;
+}
+.contact h2{
+	font-size: 30px;
+	padding-bottom: 15px;
+}
+.contact p{
+	margin-bottom: 5%;
+}
+.cnt{
+	display: flex;
+	width: 65%;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+.shi{
+	text-align: left;
+	font-size: 18px;
+	line-height: 50px;
+}
+.shi i{
+	margin-right: 20px;
+	font-size: 25px;
+}
+.shi2{
+ 	text-align: right;
+}
+.shi2 input{
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background: #363537;
+	color: #EAEAEA;
+	margin-right: 15px;
+	box-shadow: 0 0 2px 2px #893168;
+	margin-bottom: 15px;
+}
+.shi2 textarea{
+	width: 70%;
+	min-height: 200px;
+	border: none;
+	background: #363537;
+	color: #EAEAEA;
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 2px 2px #893168;
+	margin-bottom: 15px;
+}
+.nut{
+	background: #F5F5F5;
+	padding: 10px 20px;
+	border-radius: 6px;
+	color: #3C3C3C;
+	transition: 0.5s;
+	border: 1px solid #3C3C3C;
+}
+.nut:hover{
+	background: #363537;
+	color: #EAEAEA;
+	cursor: pointer;
+}
+.end{
+	height: 20vh;
+	background: #FFBFB7;
+}
+.robber{
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.footer p{
+	text-align: center;
+	padding-top: 1.5%;
+}
+.robber a:hover{
+	cursor: pointer;
+	text-shadow: 0 0 10px #961D4E;
+	transition: 0.5s;
+}
+	
+
